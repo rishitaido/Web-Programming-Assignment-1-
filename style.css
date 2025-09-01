@@ -11,7 +11,7 @@
 
 html, body {
   margin: 0;
-  padding: 0;
+  padding: 5;
   background: var(--bg);
   color: var(--ink);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -21,7 +21,7 @@ html, body {
 header {
   background: var(--brand);
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -41,6 +41,8 @@ img.hero {
   border-radius: 10px;
   outline: 2px solid var(--ring);
   outline-offset: 2px;
+  padding-left: 2px;
+
 }
 
 /* Three distinct paragraph styles on this page */
@@ -48,16 +50,21 @@ p.delta {
   color: #0ea5e9; /* sky-500 */
   font-size: 1.075rem;
   font-family: "Georgia", "Times New Roman", serif;
+  padding-left: 5px;
 }
 p.epsilon {
   color: #16a34a; /* green-600 */
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
+  padding-left: 5px;
+
 }
 p.zeta {
   color: #b91c1c; /* red-700 */
   font-weight: 700;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-left: 5px;
+
 }
 
 /* Bulleted list styles */
