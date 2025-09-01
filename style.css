@@ -1,6 +1,6 @@
 /* External stylesheet controlling the Features page (including table styles) */
 :root {
-  --brand: #2563eb;
+  --brand: #0a3b20;
   --ink: #0f172a;
   --muted: #64748b;
   --bg: #f8fafc;
@@ -21,14 +21,14 @@ html, body {
 header {
   background: var(--brand);
   color: white;
-  padding: 2rem;
+  padding: 1.25rem;
   margin-bottom: 1rem;
 }
 
 main { padding: 0 1rem 2rem; }
 
 nav a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 nav a:hover { text-decoration: underline; }
